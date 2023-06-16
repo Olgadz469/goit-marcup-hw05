@@ -406,13 +406,13 @@ img {
   display: flex;
   align-items: baseline;
 }
-.footer-box1 {
+.footer-box-logo {
   margin-right: 120px;
 }
-.footer-box2 {
+.footer-box-soc {
+  margin-right: 80px;
 }
-.footer-box3 {
-  margin-left: 80px;
+.footer-box {
 }
 .footer-icons {
   display: flex;
