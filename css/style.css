@@ -694,16 +694,14 @@ img {
   color: #4d5ae5;
   text-decoration: underline;
 }
-.check-text span {
-  display: inline-flex;
-}
+
 .check-span {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   margin-right: 12px;
-
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
