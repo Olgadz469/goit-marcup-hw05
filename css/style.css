@@ -634,6 +634,7 @@ img {
   position: absolute;
   left: 16px;
   top: 50%;
+  fill: var(--primary-herobg-color);
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -713,6 +714,9 @@ img {
   background-color: var(--primary-state-color);
   border: none;
   fill: var(--primary-lidht-color);
+}
+.input-check:focus + .check-text span {
+  border-color: var(--primary-state-color);
 }
 .policy {
   color: var(--primary-brand-color);
