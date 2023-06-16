@@ -413,6 +413,8 @@ img {
   margin-right: 80px;
 }
 .footer-box {
+  display: flex;
+  flex-direction: column;
 }
 .footer-icons {
   display: flex;
@@ -475,6 +477,7 @@ img {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+  display: flex;
 }
 .footer-form {
   display: flex;
@@ -509,6 +512,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 8px 24px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
